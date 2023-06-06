@@ -1,0 +1,37 @@
+/* styles.css */
+
+body {
+  background-image: url('https://kinarino.k-img.com/system/press_eye_catches/000/028/472/15df0a56c79f0dbc4f4053e1c056ee965782370a.jpg?1643188214');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: #333333; /* Darker color for navigation links */
+}
+
+#main-content,#signature-menu-content {
+  background-color: #d3ece8; /* Light green background color for main content */
+  margin-bottom: 2rem;
+/*   flex: 1;
+ */}
+
+.jumbotron,
+.main-content{
+  opacity: 0.9;
+}
+
+.card-img-height {
+  height: 200px; /* 適切な高さに変更してください */
+  object-fit: cover; /* 画像を縦横比を保ちつつカードにフィットさせます */
+}
+
+.card-main-content{
+	height: 100%;
+}
